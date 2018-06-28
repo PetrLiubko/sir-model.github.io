@@ -21,15 +21,15 @@ var pause = false;
 var traceS = {
   x: [],
   y: [],
-  name: 'Susceptible',
-  type: 'scatter'
+  name: 'Сприйнятливі',
+  type: 'розкид'
 };
 
 var traceI = {
   x: [],
   y: [],
-  name: 'Infected',
-  type: 'scatter'
+  name: 'Інфіковані',
+  type: 'розкид'
 };
 var t = 0;
 var data = [traceS, traceI];
@@ -38,14 +38,14 @@ function resetGraph(){
   traceS = {
     x: [],
     y: [],
-    name: 'Susceptible',
-    type: 'scatter'
+    name: 'Сприйнятливі',
+    type: 'розкид'
   };
   traceI = {
     x: [],
     y: [],
-    name: 'Infected',
-    type: 'scatter'
+    name: 'Інфіковані',
+    type: 'розкид'
   };
   t = 0;
   data = [traceS, traceI];
